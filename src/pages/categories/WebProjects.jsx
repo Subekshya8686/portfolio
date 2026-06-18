@@ -5,6 +5,7 @@ export default function WebProjects() {
   return (
     <Projects
       title="Web Projects"
+      subtitle="Full-stack web applications built with React, the MERN stack, and modern tooling."
       projects={portfolioData.projects.web}
     />
   );

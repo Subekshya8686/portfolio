@@ -1,32 +1,22 @@
 import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
-export default function ProjectCategoryCard({
-  title,
-  description,
-  link,
-}) {
+export default function ProjectCategoryCard({ title, description, link }) {
   return (
     <Link
       to={link}
-      className="
-      p-8
-      rounded-3xl
-      border
-      border-zinc-800
-      bg-zinc-900/50
-      hover:border-blue-500
-      transition
-      block
-    "
+      className="group flex flex-col rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 text-left transition-colors hover:border-emerald-500/50"
     >
-      <h3 className="text-2xl font-bold">{title}</h3>
+      <h3 className="text-xl font-bold text-zinc-100">{title}</h3>
 
-      <p className="mt-3 text-zinc-400">
-        {description}
-      </p>
+      <p className="mt-2 text-sm text-zinc-400 leading-relaxed">{description}</p>
 
-      <span className="mt-5 inline-block text-blue-400">
-        View Projects →
+      <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-emerald-400">
+        View Projects
+        <ArrowRight
+          size={15}
+          className="transition-transform duration-200 group-hover:translate-x-1"
+        />
       </span>
     </Link>
   );
