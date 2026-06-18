@@ -1,0 +1,96 @@
+{
+    "personalInfo": {
+      "name": "Subekshya Kayastha",
+      "title": "Frontend & Mobile App Developer",
+      "status": "Open for Engineering Opportunities",
+      "location": "Thamel, Kesharmahal Marg, Kathmandu",
+      "email": "subekshyakayastha4@gmail.com",
+      "phone": "9849786386",
+      "github": "#",
+      "linkedin": "#"
+    },
+    "education": [
+      {
+        "period": "Nov 2022 – Sept 2025",
+        "degree": "Bachelor's in Computing",
+        "institution": "Softwarica College",
+        "details": "Dillibazar, Kathmandu — Undergraduate Program."
+      },
+      {
+        "period": "Jul 2020 – Jul 2022",
+        "degree": "High School - Science Stream",
+        "institution": "Brihaspati Vidyasadan",
+        "details": "Naxal, Kathmandu — Foundational analytical and science curriculum."
+      }
+    ],
+    "experience": [
+      {
+        "period": "Jan 2024 – July 2024",
+        "role": "React Front-End Intern",
+        "company": "Waterflow Technology Pvt. Ltd",
+        "location": "Lal Durbar Marg",
+        "highlights": [
+          "Developed and maintained responsive front-end components using React.js and foundational hooks (useState, useMemo, useEffect).",
+          "Collaborated with a multidisciplinary team to create functional, user-friendly interfaces with Material-UI libraries.",
+          "Utilized React ApexCharts for dynamic data visualization layouts inside telemetry dashboards.",
+          "Worked directly on API implementation architectures for Call Blasting management panels and routing systems.",
+          "Optimized runtime data transactions and confirmed clean server integrations using Axios request models."
+        ],
+        "current": true
+      },
+      {
+        "period": "Aug 2023 – Oct 2023",
+        "role": "Intern",
+        "company": "Rooster Logic",
+        "location": "Gairidhara, Kathmandu (Remote)",
+        "details": "Contributed structural data entry operations and schema formatting protocols to support core system workflows over a two-month engagement.",
+        "current": false
+      }
+    ],
+    "projects": {
+      "web": [
+        {
+          "title": "Pet Adoption Platform (Furever Home)",
+          "desc": "Developed clean full-stack architectural pathways handling distinct customized views for user access and complete back-end structural control pipelines over platform records.",
+          "tech": ["MERN Stack", "React JSX", "Node.js", "Express", "MongoDB"],
+          "github": "#"
+        },
+        {
+          "title": "Recipe Web Application (TasteTrail)",
+          "desc": "Served as Scrum Master managing delivery pipelines and interface configurations ensuring intuitive presentation models throughout user interactive spaces.",
+          "tech": ["React.js", "Scrum Framework", "REST APIs", "Node.js"],
+          "github": "#"
+        }
+      ],
+      "mobile": [
+        {
+          "title": "To-Do List App (Taskify)",
+          "desc": "A clean, efficient mobile application handling local runtime memory operations across structured client configuration panels.",
+          "tech": ["Flutter", "Dart", "CRUD Architecture", "State Management"],
+          "github": "#"
+        }
+      ],
+      "other": [
+        {
+          "title": "Bank Management System",
+          "desc": "Simulated foundational processing environments evaluating variable workflow assignments and computational logic validations safely.",
+          "tech": ["Python", "Object-Oriented Programming", "Data Architecture"],
+          "github": "#"
+        },
+        {
+          "title": "Restaurant Management System",
+          "desc": "Designed strict type-safe order system arrays coordinating live input workflows inside desk environment parameters securely.",
+          "tech": ["Java", "Swing UI", "Event Handling Engine"],
+          "github": "#"
+        }
+      ]
+    },
+    "skills": {
+      "core": ["JavaScript", "Python", "Java", "Dart", "React.js", "Flutter", "Material-UI"],
+      "tools": ["Git Version Control", "Scrum Framework", "REST APIs", "Agile Development", "Team Collaboration", "Problem-Solving"],
+      "achievements": [
+        "Successfully led structured group software releases under Agile Scrum principles.",
+        "Independently designed and compiled responsive end-to-end applications within full-stack runtime systems."
+      ]
+    }
+  }
