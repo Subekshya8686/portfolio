@@ -20,13 +20,12 @@ export default function Hero() {
   };
 
   return (
-    // Changed min-h-[80vh] to w-full, and reduced vertical padding from py-20 to pt-12 pb-6
-    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <section className="w-full pt-10 pb-6 text-center">
       <motion.div
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="space-y-6 flex-col"
+        className="flex flex-col items-center space-y-6"
       >
         {/* Availability Badge */}
         <motion.div

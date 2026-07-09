@@ -3,36 +3,32 @@ import ProjectCategoryCard from "../components/ProjectCategoryCard";
 
 export default function Home() {
   return (
-    <>
-      {/* Added relative block to ensure it occupies normal layout stream */}
-      <div className="w-full block relative">
-        <Hero />
-      </div>
+    <div className="w-full py-6">
+      <Hero />
 
-      {/* Added relative block clear-both so it is forced underneath and respects padding */}
-      <section className="pb-24 relative block clear-both float-none w-full">
-        <h2 className="text-4xl font-bold mb-8">Project Categories</h2>
+      <section className="mt-6">
+        <h2 className="mb-6 text-center text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+          Project Categories
+        </h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid gap-5 md:grid-cols-3">
           <ProjectCategoryCard
             title="Web Projects"
-            description="React, MERN and full-stack apps."
+            description="React, MERN and full-stack web applications."
             link="/projects/web"
           />
-
           <ProjectCategoryCard
             title="Mobile Apps"
-            description="Flutter and React Native apps."
+            description="Cross-platform apps with React Native and Flutter."
             link="/projects/mobile"
           />
-
           <ProjectCategoryCard
             title="Other Projects"
-            description="Java, Python and university work."
+            description="Core programming fundamentals in Java and Python."
             link="/projects/other"
           />
         </div>
       </section>
-    </>
+    </div>
   );
 }
